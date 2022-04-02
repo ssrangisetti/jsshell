@@ -1,0 +1,55 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    white-space:pre-wrap;
+}
+
+.prompt {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.text {
+    margin: 0px;
+    flex-basis: auto;
+}
+
+.prompt-input {
+    flex: 1 1 0%;
+    border: medium none;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.scan-input {
+    flex: 1 1 0%;
+    border: medium none;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.prompt-input:focus, .scan-input:focus {
+    outline: currentColor none medium;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+}
+
+ul {
+    line-height: 22px;
+}

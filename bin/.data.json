@@ -1,0 +1,21 @@
+{
+    "cat.js": {
+        "type": "FILE"
+    },
+    "ls.js": {
+        "type": "FILE"
+    },
+    "toFile.js": {
+        "type": "FILE"
+    },
+    "add.js": {
+        "type": "FILE"
+    },
+    "yes.js": {
+        "type": "FILE"
+    },
+    "md.js": {
+        "type": "FILE"
+    }
+
+}
